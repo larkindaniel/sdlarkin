@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +15,20 @@
 :root {
   --color-bg: #191827;
   --color-bg-variant: #051937;
-  --color-primary: #4194d0;
+  --color-primary: #459ff4;
+  /* --color-primary: #ccd6f6; */
   --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(225, 225, 225, 0.6);
+  --color-white: #ccd6f6;
+  --color-light: rgba(77, 181, 219, 0.518);
 
   --transition: all 600ms ease;
 
-  --container-width-lg: 75%;
+  --container-width-lg: 63%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+
+  --primary-font: "Montserrat", sans-serif;
+  --seconary-font: "Montserrat", sans-serif;
 }
 
 html {
@@ -34,9 +40,11 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--primary-font);
   background: var(--color-bg);
   color: var(--color-white);
+  font-weight: 400;
+  font-size: 1.1rem;
   line-height: 1.7;
 }
 
@@ -51,6 +59,10 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+}
+h2 {
+  font-weight: 700;
+  font-size: 4rem;
 }
 
 h1 {

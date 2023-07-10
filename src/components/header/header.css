@@ -1,0 +1,32 @@
+
+
+header{
+    height: 100vh;
+    padding-top: 8rem;
+    overflow: hidden;
+}
+.header__intro{
+    color: var(--color-primary);
+    display: flex;
+    height: 2rem;
+}
+
+.header__container {
+    text-align: left;
+    height: 100%;
+    position: relative;
+    
+  }
+
+.header__socials{
+    padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    
+
+}
+
+.header__push{
+    margin-right: auto;
+}

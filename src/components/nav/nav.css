@@ -1,29 +1,27 @@
 .navbar {
+  display: flex;
+  align-items: center;
   background: var(--color-bg);
+  column-gap: 3rem;
   width: 100%;
   opacity: 0.95;
+  backdrop-filter: blur(10px);
   height: 6rem;
   position: sticky;
   top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
   transition-property: all;
-  align-items: center;
-
-  
-  padding: 0 10rem;
+  padding: 0 8rem;
   transition-duration: 400ms;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav__push {
+  margin-left: auto;
 }
 
 .navbar.hide {
   top: -6rem;
   transition-duration: 200ms;
-}
-
-#test{
-     
 }
 
 /* .navbar.show ul {
