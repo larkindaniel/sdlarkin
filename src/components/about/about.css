@@ -1,5 +1,117 @@
 .about__container{
-    display: grid;
-    grid-template-columns: 50% 35%;
-    gap: 15%
+    width: 100%;
+    padding-top: 4rem;
+    display: flex; 
+    
+    /* background-color: blue;  */
+    /* padding-top: 8rem; 
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    height: 100%;
+    position: relative; */
 }
+
+p{
+    margin-bottom: 1rem;
+}
+
+/* padding-top: 8rem; 
+background-color: black;
+flex-direction: column;
+display: flex;
+justify-content: left;
+text-align: left;
+height: 100%;
+position: relative; */
+
+
+.about__me {
+    margin-left: auto;
+    max-width: 40%;
+
+    /* aspect-ratio: 1/1; */
+    /* border-radius: 0.5rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center; */
+}
+
+.about__me-image{
+    border-radius: 0.5rem; 
+    overflow: hidden;
+    object-fit: contain;
+    
+    transition: var(--transition);
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem var(--color-primary));
+    
+    /* filter: drop-shadow(1px 1px 1px var(--color-primary)); */
+
+}
+
+.about__me-image:hover{
+    
+    -webkit-transform: translate(-0.6rem, -0.4rem); 
+
+    transform: translate(-0.6rem, -0.4rem);
+    transition: var(--transition); 
+    -webkit-filter: brightness(120%);
+    filter: drop-shadow(0.7rem 0.7rem 0.7rem var(--color-primary));
+    
+
+    /* transform: scale(1.05);
+    box-shadow: 0 0 0 10px #000000;
+    transition: var(--transition); */
+
+}
+
+
+.about__content {
+    max-width: 50%;
+    /* background-color: black; */
+    /* margin: 2rem 0 2.6rem;  */
+    color: var(--color-light); 
+}
+
+
+.about__content p{
+    max-width: 100%;
+    /* background-color: black; */
+    /* margin: 2rem 0 2.6rem;  */
+    color: var(--color-light); 
+}
+
+
+
+
+
+
+
+
+/* .about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem; 
+}
+
+.about__card{
+    background: var(--color-primary); 
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem; 
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default; 
+}
+
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);  
+} */
