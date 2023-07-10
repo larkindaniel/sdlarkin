@@ -1,7 +1,7 @@
 
 
 header{
-    height: 100vh;
+    height: 90vh;
     padding-top: 8rem;
     overflow: hidden;
 }
@@ -12,19 +12,25 @@ header{
 }
 
 .header__container {
+
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
     text-align: left;
     height: 100%;
     position: relative;
     
   }
+  
 
 .header__socials{
-    padding-top: 8rem;
+    margin-top: 20vh; 
+    position:relative;
+    /* margin-top: 4rem; */
+  
     display: flex;
-    align-items: center;
     column-gap: 2rem;
-    
-
+    top: auto;
 }
 
 .header__push{

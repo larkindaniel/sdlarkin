@@ -3,11 +3,14 @@ import "./nav.css";
 import useScrollDirection from "./scrolldirection";
 import LOGO from "../../assets/logo.PNG";
 
+
 const Nav = () => {
   const scrollDirection = useScrollDirection();
   console.log(scrollDirection);
   return (
+    
     <nav className={`navbar ${scrollDirection === "down" ? "hide" : "show"}`}>
+      
       <a href="#">
         sdlarkin
       </a>

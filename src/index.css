@@ -40,12 +40,29 @@ html {
 }
 
 body {
+  
   font-family: var(--primary-font);
   background: var(--color-bg);
   color: var(--color-white);
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.7;
+}
+
+
+.backdrop{
+  position: absolute;
+  z-index: -1;
+}
+.background__image{
+  position: fixed;
+  opacity: 0.35;
+
+}
+.background__image2{
+  position: fixed;
+  opacity: 0.13;
+  object-position: 2vh 2vh;
 }
 
 .container {
