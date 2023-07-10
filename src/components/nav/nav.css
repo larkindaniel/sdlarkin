@@ -1,0 +1,35 @@
+.navbar {
+  background: var(--color-bg);
+  width: 100%;
+  opacity: 0.95;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  transition-property: all;
+  align-items: center;
+
+  
+  padding: 0 10rem;
+  transition-duration: 400ms;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar.hide {
+  top: -6rem;
+  transition-duration: 200ms;
+}
+
+#test{
+     
+}
+
+/* .navbar.show ul {
+  width: 30rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
