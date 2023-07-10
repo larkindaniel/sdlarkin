@@ -8,7 +8,8 @@ header{
 .header__intro{
     color: var(--color-primary);
     display: flex;
-    height: 2rem;
+    height: 3rem;
+
 }
 
 .header__container {
@@ -22,9 +23,12 @@ header{
     
   }
   
+/* .secondary__header{
+    text-shadow:1px 1px 2px grey ;
+} */
 
 .header__socials{
-    margin-top: 20vh; 
+    margin-top: 22vh; 
     position:relative;
     /* margin-top: 4rem; */
   

@@ -61,8 +61,8 @@ body {
 }
 .background__image2{
   position: fixed;
-  opacity: 0.13;
-  object-position: 2vh 2vh;
+  opacity: 0.1;
+  object-position: 4vh 4vh;
 }
 
 .container {
@@ -75,11 +75,13 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
+  font-weight: 500; 
 }
+
 h2 {
   font-weight: 700;
   font-size: 4rem;
+  line-height: 5rem;
 }
 
 h1 {
@@ -91,10 +93,12 @@ section {
   height: 100vh;
 }
 
-section > h2,
+
 section > h5 {
+  font-weight: 500;
+  font-size: 2rem;
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 section > h2 {
