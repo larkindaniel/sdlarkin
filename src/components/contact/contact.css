@@ -1,10 +1,10 @@
 .container__contact{
-    
+    padding-top: 4.5rem;
 
    
 }
 
-form{
+/* form{
     display: flex; 
     flex-direction: column;
     gap: 1.2rem; 
@@ -29,4 +29,31 @@ input{
     border: 2px solid var(--color-primary); 
     resize: none;
     color: var(--color-white); 
+} */
+
+/* .para{
+    background: black;
+    color: var(--color-light);
+} */
+
+.contact__body{
+    padding: 3rem;
+    transition: var(--transition);
+
+    max-width: 60%;
+    /* background: red; */ 
+    color: var(--color-light); 
+    /* font: 1.2rem;  */
+    font-size: 1.2rem;
+    box-shadow: 0rem 0.1rem 0rem  var(--color-primary) ;
+}
+.contact__body>p{
+    padding-bottom: 2rem;
+}
+
+
+.contact__body:hover {
+    transition: var(--transition);
+    background:var(--color-bg);
+    box-shadow: 0.5rem 0.2rem 0.5rem var(--color-primary) ;
 }
