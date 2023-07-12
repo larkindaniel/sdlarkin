@@ -1,0 +1,84 @@
+
+
+.MuiTabs-indicator{
+    transition: var(--transition);
+    background: var(--color-primary) !important;
+  }
+  .MuiTabs-flexContainer{
+    color: var(--color-light) ;
+    padding: 5px;
+    
+  }
+
+.experience__container{
+    /* display: flex; */
+    padding-top: 4.5rem;
+    /* padding: auto; */
+    /* background: black; */
+}
+  
+  .MuiTabs-root{
+    transition: var(--transition);
+    margin: 2px;
+    text-align: left;
+  }
+
+
+
+  .MuiTab-root{
+
+    width: 25vh !important; 
+    text-transform: none !important;
+    align-items: self-start !important;
+    justify-content: flex-start !important;
+    
+    /* background: red; */
+    /* justify-content: flex-start; */
+   
+  }
+
+  .Mui-selected{
+    /* transition: var(--transition); */
+    background-color: rgba(158, 141, 141, 0.05) !important;
+    color: var(--color-primary) !important; 
+  }
+
+  .MuiTab-root:hover{
+   
+    transition: var(--transition) !important;
+    background-color: rgba(158, 141, 141, 0.05) !important;
+    color: var(--color-primary) !important; 
+  }
+
+  .cardHeader{
+    padding-bottom: 1rem;
+    /* background: red; */
+    color: var(--color-light)
+  }
+
+  .customTab{
+    transition: var(--transition);
+    box-shadow:0.1rem 0 0 var(--color-primary) ;
+    /* background: var(--color-bg); */
+  }
+  .customTab:hover{
+     background:var(--color-bg);
+    transition: var(--transition);
+    box-shadow:0.5rem 0.2rem 0.5rem var(--color-primary) ;
+    /* -webkit-transform: translate(-0.3rem, -0.2rem);  */
+
+    /* transform: translate(-0.3rem, -0.2rem); */
+    /* transition: var(--transition);  */
+  }
+  .cardBody{
+    display: flex;
+    /* background: red; */
+    color: var(--color-light);
+    padding-bottom: 1.5rem !important;
+  
+  }
+
+  .cardDate{
+    font-size: 0.9rem !important;
+    padding-bottom: 1.5rem;
+  }

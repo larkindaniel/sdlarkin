@@ -1,0 +1,32 @@
+.container__contact{
+    
+
+   
+}
+
+form{
+    display: flex; 
+    flex-direction: column;
+    gap: 1.2rem; 
+
+}
+
+textarea{
+    background: transparent;
+    width: 60%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary); 
+    resize: none;
+    color: var(--color-white); 
+}
+
+input{
+    background: transparent;
+    width: 60%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary); 
+    resize: none;
+    color: var(--color-white); 
+}

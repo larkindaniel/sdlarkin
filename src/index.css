@@ -31,6 +31,10 @@
   --primary-font: "Montserrat", sans-serif;
   --seconary-font: "Montserrat", sans-serif;
 }
+strong{
+  font-weight: normal;
+  color: var(--color-primary)
+}
 
 html {
   scroll-behavior: smooth;
@@ -39,6 +43,7 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+
 
 body {
   
@@ -67,6 +72,7 @@ body {
 }
 
 .container {
+  position: relative;
   width: var(--container-width-lg);
   margin: 0 auto;
 }
@@ -126,6 +132,7 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   color: var(--color-primary);
 }
 

@@ -1,0 +1,86 @@
+import { Box, Tab, Tabs, Typography } from "@mui/material";
+import React, { useState } from "react";
+import MyColor from "../../Styles";
+import "./experience.css";
+
+
+function CustomTab() {
+  const [currentTabIndex, setCurrentTabIndex] = useState(0);
+
+  const handleTabChange = (e, tabIndex) => {
+    setCurrentTabIndex(tabIndex);
+  };
+
+  return (
+    <React.Fragment>
+      <div className="customTab" style={{ display: "flex" }}>
+        <Tabs
+          value={currentTabIndex}
+          orientation="vertical"
+          onChange={handleTabChange}
+          textColor={MyColor.colorAccent}
+          TabIndicatorProps={{
+            sx: {
+              left: 0,
+            },
+          }}
+        >
+          <Tab label="BlackBerry" />
+          <Tab label="Coop 2" />
+        </Tabs>
+
+        <div style={{ width: "65%" }}>
+          {/* TAB 1 Contents */}
+          {currentTabIndex === 0 && (
+            <Box sx={{ p: 2 }}>
+              <Typography variant="h5" className="cardHeader">
+                Software Developer <strong>@BlackBerry</strong>{" "}
+              </Typography>
+              <Typography variant="h4" className="cardDate" >
+                May 2023 - Present
+              </Typography>
+              <div className="cardBody">
+                <Typography variant="p" className="cardBody">
+                  The standard chunk of Lorem Ipsum used since the 1500s is
+                  reproduced below for those interested. Sections 1.10.32 and
+                  1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                
+                  reproduced below for those interested. Sections 1.10.32 and
+                  1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                  also reproduced in their exact original form, accompanied by
+                  English versions from the 1914 translation by H. Rackham.
+                </Typography>
+              </div>
+            </Box>
+          )}
+
+          {/* TAB 2 Contents */}
+          {currentTabIndex === 1 && (
+            <Box sx={{ p: 2 }} >
+              <Typography variant="h5" className="cardHeader">
+                Coop 2 Content
+              </Typography>
+              <Typography variant="h4" className="cardDate" >
+                May 2023 - Present
+              </Typography>
+              <div className="cardBody">
+                <Typography variant="p" className="cardBody">
+                The standard chunk of Lorem Ipsum used since the 1500s is
+              
+                  English versions from the 1914 traasdfa sde
+                  standard chunk of Lorem Ipsum used since the 1500s is
+                  reproduced below for those interested. Sections 1.10.32 and
+                  1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                  also reproduced in their exact original form, accompanied by
+                  English versions from the 1914 translation by H. Rackham.
+                </Typography>
+              </div>
+            </Box>
+          )}
+        </div>
+      </div>
+    </React.Fragment>
+  );
+}
+
+export default CustomTab;

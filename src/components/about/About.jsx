@@ -7,7 +7,7 @@ import ME from "../../assets/headshot.jpg";
 const About = () => {
   return (
     <section id="about">
-      <div className="container container__header"><h5>About Me</h5><hr></hr></div>
+      <div className="container container__header"><h5>About Me</h5></div>
       
      
 
