@@ -82,3 +82,36 @@
     font-size: 0.9rem !important;
     padding-bottom: 1.5rem;
   }
+
+  .container__header{
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 1024px){
+    /* transition: var(--transition); */
+    .cardBody{
+        font-size: 1rem;
+    }
+    .cardDate{
+      font-size: 0.8rem !important; 
+    }
+    .cardHeader{
+      /* color: blue;  */
+      font-size: 1.5rem !important ;
+    }
+    
+}
+  @media screen and (max-width: 600px){
+ 
+    .cardBody{
+      font-size: 0.9rem;
+  }
+  .cardDate{
+    font-size: 0.7rem !important; 
+  }
+  .cardHeader{
+    /* color: blue;  */
+    font-size: 1.3rem !important ;
+  }
+
+  }

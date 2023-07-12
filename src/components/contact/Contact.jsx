@@ -3,7 +3,7 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" style= {{marginBottom: "15vw"}}>
       <div className="container container__header">
         <h5>Get in Touch</h5>
       </div>

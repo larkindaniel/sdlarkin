@@ -42,3 +42,35 @@ header{
 .header__push{
     margin-right: auto;
 }
+
+
+@media screen and (max-width: 1024px){
+    /* transition: var(--transition); */
+ 
+    .primary__header{
+        /* color: blue; 
+        background: black; */
+        font-size: 3.5rem !important;
+    }
+    .secondary__header{
+        font-size: 3.5rem;
+    }
+    header{
+        height: 90vh;
+    }
+}
+  @media screen and (max-width: 600px){
+ 
+    .primary__header{
+        font-size: 2.5rem !important;
+    }
+    .secondary__header{
+        font-size: 2.5rem;
+    }
+    header{
+        height: 100vh;
+    }
+  }
+
+  
+  

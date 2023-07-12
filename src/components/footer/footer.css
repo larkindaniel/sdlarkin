@@ -7,9 +7,10 @@ footer{
     justify-content: center;
     text-align: center;
     font-size: 1.2rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     box-shadow: 0rem 0.1rem 0rem  var(--color-primary) ;
     transition: var(--transition);
+    /* background: black;  */
 }
 
 footer:hover{
@@ -35,7 +36,7 @@ small{
 }
 
 .footer__log__container{
-    margin-top: 2vh;
+    margin-top: 1vw;
     justify-content: center;
     display: flex;
     align-items: center;

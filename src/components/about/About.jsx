@@ -15,13 +15,13 @@ const About = () => {
       
         
         <div className="about__content">
-          <p>
+          <p class ="genearlP">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
             quisquam? Voluptatibus dolores expedita accusamus molestiae eligendi
             ea, consequuntur modi non repudiandae itaque officia repellat ex
             placeat error reprehenderit, at aspernatur?
           </p>
-          <p>
+          <p class = "genearlP">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
             quisquam? Voluptatibus dolores expedita accusamus molestiae eligendi
             ea, consequuntur modi non repudiandae itaque officia repellat ex

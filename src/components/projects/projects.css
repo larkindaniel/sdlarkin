@@ -4,6 +4,7 @@
     /* max-width: 60%; */
     /* background: blue; */
     margin: 0 auto; 
+   
 }
 
 .card__container{
@@ -21,6 +22,7 @@
 }
 
 .card__left{
+    /* height: 400px; */
     z-index: 1;
     background: var(--color-bg); 
     position: relative;
@@ -31,7 +33,7 @@
     border-radius: 0.5rem;
     padding: 2rem;
     /* background: blue; */
-    width: 40%;
+    width: 50%;
     /* min-height: 400px; */
     transition: var(--transition);
     box-shadow:0.2rem 0.2rem 0.5rem var(--color-primary) ;
@@ -50,7 +52,7 @@
 
     /* align-self: auto; */
     /* background: blue; */
-    width: 56%;
+    width: 60%;
     /* height: 600px; */
     border-radius: 0.5rem;
 }
@@ -90,6 +92,7 @@ iframe{
 
 .cardP{
     display: flex;
+    font-size: 1.1rem;
     /* background: red; */
     color: var(--color-light);
 }
@@ -98,3 +101,29 @@ iframe{
     font-size: 1.3rem;
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 1024px){
+    /* transition: var(--transition); */
+    .cardP{
+        font-size: 1rem;
+    }
+    .cardH{
+        font-size: 1rem;
+    }
+    .cardDate{
+      font-size: 0.8rem !important; 
+    }
+    
+}
+  @media screen and (max-width: 600px){
+ 
+    .cardP{
+        font-size: 0.85rem;
+    }
+    .cardH{
+        font-size: 0.85rem;
+    }
+    .cardDate{
+      font-size: 0.7rem !important; 
+    }
+  }
