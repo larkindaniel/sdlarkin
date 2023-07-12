@@ -44,7 +44,7 @@ const CustomCards1 = () => {
       </div>
       <div class="card__right">
         <div className="center__iframe">
-          <iframe src="https:/sdlarkin.com/" scrolling="no"></iframe>
+          <iframe src="https://yashkapoor.ca/" scrolling="no"></iframe>
         </div>
       </div>
       
