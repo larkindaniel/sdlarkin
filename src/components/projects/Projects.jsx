@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import CustomCards1 from "./CustomCards1";
-import CustomCards2 from "./CustomCards2"
+// import CustomCards2 from "./CustomCards2"
 
 const Projects = () => {
   return (
@@ -10,9 +10,7 @@ const Projects = () => {
         <h5>My Projects</h5>
       </div>
       <div className="container projects__container">
-        <CustomCards1/>
-        
-        
+        <CustomCards1 />
       </div>
     </section>
   );

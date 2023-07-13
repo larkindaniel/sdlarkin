@@ -16,7 +16,7 @@
   --color-bg: #191827;
   --color-bg-variant: #051937;
   --color-primary: #459ff4;
-  --color-primary-transparent: rgba(var(--color-primary), 0.4)
+  --color-primary-transparent: rgba(var(--color-primary), 0.4);
   /* --color-primary: #ccd6f6; */
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #ccd6f6;
@@ -31,9 +31,9 @@
   --primary-font: "Montserrat", sans-serif;
   --seconary-font: "Montserrat", sans-serif;
 }
-strong{
+strong {
   font-weight: normal;
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 html {
@@ -44,9 +44,7 @@ html {
   display: none;
 }
 
-
 body {
-  
   font-family: var(--primary-font);
   background: var(--color-bg);
   color: var(--color-white);
@@ -55,24 +53,22 @@ body {
   line-height: 1.7;
 }
 
-
-.backdrop{
+.backdrop {
   position: absolute;
   z-index: -1;
 }
-.background__image{
+.background__image {
   position: fixed;
   opacity: 0.35;
-
 }
-.background__image2{
+.background__image2 {
   position: fixed;
   opacity: 0.1;
   object-position: 4vh 4vh;
 }
 
 .container {
-  min-width: 0; 
+  min-width: 0;
   position: relative;
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -83,7 +79,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 h2 {
@@ -109,14 +105,14 @@ section {
   /* height: 70vw; */
 }
 
-.container__header{
+.container__header {
   display: flex;
 }
 
 h5 {
   font-weight: 500;
   font-size: 2rem;
-  text-align: left; 
+  text-align: left;
   color: var(--color-white);
 }
 
@@ -169,46 +165,43 @@ img {
   transition: var(--transition);
 }
 
-
-
-
 /*===============Responsiveness ===============*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   /* transition: var(--transition); */
-  .container{
+  .container {
     width: var(--container-width-md);
   }
-  section{
+  section {
     margin-bottom: 15vw;
     padding-top: 7vw;
     margin-top: 6rem;
   }
-  h5{
+  h5 {
     font-size: 1.5rem;
   }
-  a{
+  a {
     font-size: 0.95rem;
   }
- small{
-  font-size: 0.7rem;
- }
+  small {
+    font-size: 0.7rem;
+  }
 }
 
-@media screen and (max-width: 600px){
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-sm);
   }
-  section{
+  section {
     margin-bottom: 2rem;
   }
-  h5{
+  h5 {
     font-size: 1.2rem;
   }
-  a{
+  a {
     font-size: 0.92rem;
   }
- small{
-  font-size: 0.6rem;
- }
+  small {
+    font-size: 0.6rem;
+  }
 }
