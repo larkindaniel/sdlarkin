@@ -1,7 +1,6 @@
 import React from "react";
 import "./nav.css";
 import useScrollDirection from "./scrolldirection";
-import LOGO from "../../assets/logo.PNG";
 
 
 const Nav = () => {

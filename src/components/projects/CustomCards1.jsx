@@ -39,15 +39,17 @@ const CustomCards1 = () => {
             facere totam eos quasi, perspiciatis ipsa, repellendus minima,
             ratione quis magnam ea.
           </p>
-          <a>Link</a>
+          <div className="links">
+            <a>Link</a>
+            {/* <a>Code</a> */}
+          </div>
         </div>
       </div>
       <div class="card__right">
         <div className="center__iframe">
-          <iframe src="https://yashkapoor.ca/" scrolling="no"></iframe>
+          <iframe src="https://foralltimes.cyclic.app/" scrolling="no"></iframe>
         </div>
       </div>
-      
     </div>
   );
 };
