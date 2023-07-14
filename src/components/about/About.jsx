@@ -12,13 +12,13 @@ const About = () => {
       <div className="container about__container">
         <div className="about__content">
           <p class="genearlP">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
-            quisquam? Voluptatibus dolores expedita accusamus molestiae eligendi
-            ?
+            Hello! I'm a Software Engineering student at the <strong>University of Waterloo</strong>.
           </p>
           <p class="genearlP">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
-            quisquam? Voluptatibus dolores expedita accusamus molestiae eligendi
+            I'm passionate about building real-world applications and always on the lookout for new opportunities.
+          </p>
+          <p class="genearlP">
+           Here's some of what I've been <a href="#projects" class = "about__link">working on . . . </a>
           </p>
         </div>
         <div className="about__me">

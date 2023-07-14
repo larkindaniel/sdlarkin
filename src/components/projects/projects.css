@@ -5,7 +5,7 @@
 }
 
 .card__container {
-  padding-top: 4.5rem;
+  padding-top: 5rem;
   display: flex;
   margin-right: auto;
   justify-content: center;
@@ -56,14 +56,19 @@
 .cardP {
   /* padding: auto; */
   display: flex;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   /* background: red; */
   color: var(--color-light);
+  padding-bottom: 1rem;
 }
 
 .cardH {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   padding-bottom: 1rem;
+}
+
+.Link:hover{
+  scale: 1;
 }
 
 /* .card__content {
@@ -75,10 +80,10 @@
 @media screen and (max-width: 1024px) {
   /* transition: var(--transition); */
   .cardP {
-    font-size: 0.95rem;
+    font-size: 1.2rem;
   }
   .cardH {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
   }
   .cardDate {
     font-size: 0.8rem !important;
@@ -86,10 +91,10 @@
 }
 @media screen and (max-width: 600px) {
   .cardP {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   .cardH {
-    font-size: 0.85rem;
+    font-size: 1.3rem;
   }
   .cardDate {
     font-size: 0.7rem !important;

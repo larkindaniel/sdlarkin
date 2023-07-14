@@ -7,13 +7,14 @@ const CustomCards1 = () => {
     <div class="card__container">
       <div class="card__left">
         <div class="card__content">
-          <h5 className="cardH">ProjectName</h5>
+          <h5 className="cardH">For All Times</h5>
           <div className="p__container">
             <p className="cardP">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              incidunt quas dolores eaque recusandae cum maxime repudiandae
-              nobis facere totam eos quasi, perspiciatis ipsa, repellendus
-              minima, ratione quis magnam ea.
+            For All Times is a traffic monitor for the software engineering lounge. 
+            It works by using ultrasonic sensors to detect when people enter or leave the room. 
+            We use AWS to update this counter in real-time and display traffic on our website. 
+  
+            
             </p>
 
             <a

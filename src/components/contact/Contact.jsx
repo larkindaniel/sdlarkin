@@ -11,8 +11,8 @@ const Contact = () => {
         <div className="contact__body">
           <p>
           
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, suscipit. Dicta consequuntur labore nisi voluptas velit? Quam, reprehenderit totam, dolore facilis molestiae culpa nam cupiditate dicta, corrupti fugit repellendus consectetur?
-            people.
+          Feel free to send me a
+message. I love meeting people and am always seeking new opportunities!  
           </p>
           <a href="mailto:daniel.larkin@uwaterloo.ca">Email</a>
         </div>

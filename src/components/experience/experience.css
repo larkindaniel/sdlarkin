@@ -11,10 +11,7 @@
   }
 
 .experience__container{
-    /* display: flex; */
-    padding-top: 4.5rem;
-    /* padding: auto; */
-    /* background: black; */
+    padding-top: 5rem;
 }
   
   .MuiTabs-root{
@@ -51,11 +48,16 @@
   }
 
   .cardHeader{
+    font-size: 1.8rem !important;
     padding-bottom: 1rem;
     /* background: red; */
     color: var(--color-light)
   }
 
+
+  .side__nav{
+    font-size: 1rem !important;
+  }
   .customTab{
     transition: var(--transition);
     box-shadow:0.1rem 0 0 var(--color-primary) ;
@@ -75,7 +77,12 @@
     /* background: red; */
     color: var(--color-light);
     padding-bottom: 1.5rem !important;
+    flex-direction: column;
   
+  }
+
+  .cardBody>p{
+    margin-top: 1rem;
   }
 
   .cardDate{
@@ -87,10 +94,14 @@
     overflow: hidden;
   }
 
+  .cardBody{
+    font-size: 1.5rem;
+}
+
   @media screen and (max-width: 1024px){
     /* transition: var(--transition); */
     .cardBody{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .cardDate{
       font-size: 0.8rem !important; 
@@ -99,12 +110,15 @@
       /* color: blue;  */
       font-size: 1.5rem !important ;
     }
+    .side__nav{
+      font-size: 0.94rem !important;
+    }
     
 }
   @media screen and (max-width: 600px){
  
-    .cardBody{
-      font-size: 0.9rem;
+  .cardBody{
+      font-size: 1rem;
   }
   .cardDate{
     font-size: 0.7rem !important; 
@@ -113,5 +127,8 @@
     /* color: blue;  */
     font-size: 1.3rem !important ;
   }
-
+  .side__nav{
+    font-size: 0.9rem !important;
   }
+
+}
