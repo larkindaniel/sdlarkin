@@ -2,17 +2,12 @@ import React from "react";
 import "./nav.css";
 import useScrollDirection from "./scrolldirection";
 
-
 const Nav = () => {
   const scrollDirection = useScrollDirection();
   console.log(scrollDirection);
   return (
-    
     <nav className={`navbar ${scrollDirection === "down" ? "hide" : "show"}`}>
-      
-      <a href="/#">
-        sdlarkin
-      </a>
+      <a href="#">sdlarkin</a>
       <a href="#about" className="nav__push">
         About
       </a>

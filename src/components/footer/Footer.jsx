@@ -27,7 +27,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer__log__container">
-        <a href="/#" className="footer__logo">
+        <a href="#" className="footer__logo">
           sdlarkin
         </a>
       </div>

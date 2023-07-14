@@ -20,6 +20,7 @@ const CustomCards1 = () => {
               target="_blank"
               href="https://foralltimes.cyclic.app/"
               className="Link"
+              rel="noreferrer"
             >
               Link
             </a>
@@ -28,7 +29,7 @@ const CustomCards1 = () => {
       </div>
       <div class="card__right">
         <div className="center__iframe">
-          <img src={ForAllTimes} />
+          <img src={ForAllTimes} alt="forAllTimes" />
         </div>
       </div>
     </div>
